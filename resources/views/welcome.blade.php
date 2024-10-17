@@ -1,15 +1,13 @@
 @extends('layouts.app')
 
+@section('page-title', 'Home')
+
 @section('main-content')
+<h1>
+    Laravel Start 1
+</h1>
 
-<div>
-    <h1>
-        {{ $test }}
-    </h1>
-</div>
-
-<div>
-    <img src="{{ Vite::asset('resources/img/testimg.webp') }}" alt="">
-</div>
-
+<h2>
+    Ciao {{ $firstName }} {{ $lastName }}
+</h2>
 @endsection
